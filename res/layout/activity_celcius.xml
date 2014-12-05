@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.distro.wtcbatangharidistro.Celcius" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CELCIUS"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/celcius1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n
+Celcius merupakan distro yang menyediakan berbagai kebutuhan pria dan wanita dengan gaya yang selalu trendy dan up-to date. Celcius juga salah satu distro favorit bagi pemuda jambi karna model - model pakaian yang keren.
+\n\n
+Harga \n
+Harga barang-barang di Celcius termasuk kelas atas. Celcius menjual pakaian pria, mulai dari baju, kemeja, dompet, celana, boxer, gelang, jam tangan, sepatu hingga ikat pinggang.
+\n\n
+Lokasi Celcius di WTC Batanghari\n
+Lantai Dasar
+" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
